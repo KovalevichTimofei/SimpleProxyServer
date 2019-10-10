@@ -1,6 +1,6 @@
 # Description
 
-Simple proxy server. It tosses all requests without changes.
+Simple proxy server. It tosses all requests without changes and log them into console.
 
 **GitHub:** https://github.com/KovalevichTimofei/SimpleProxyServer
 
