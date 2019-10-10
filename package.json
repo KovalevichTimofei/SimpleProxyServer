@@ -1,13 +1,13 @@
 {
-  "name": "untitled",
+  "name": "simple-proxy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple proxy server. It tosses all requests without changes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["proxy", "proxy server", "node proxy server", "nodejs proxy server"],
+  "author": "Tsimafei Kavalevich",
   "license": "ISC",
   "dependencies": {
     "http": "0.0.0",

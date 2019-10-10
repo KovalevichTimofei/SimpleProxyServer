@@ -1,3 +1,7 @@
+# Description
+
+Simple proxy server. It tosses all requests without changes.
+
 # How to use
 
 `node server.js host port changeOrigin`
