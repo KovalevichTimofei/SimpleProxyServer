@@ -1,6 +1,6 @@
 {
   "name": "simple-http-proxy-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple proxy server. It tosses all requests without changes.",
   "main": "server.js",
   "bin": {

@@ -11,3 +11,8 @@ const proxy = httpProxy.createProxyServer({ target: host, changeOrigin, }).liste
 proxy.on('error', (error) => {
   console.log(error);
 });
+
+proxy.on('proxyRes', (ProxyReq, req, res) => {
+  console.log(`Incoming request: ${req.method} http://${req.headers.host}${req.url}`);
+  console.log(`Outcoming request: ${req.method} ${host}${req.url}`);
+});
