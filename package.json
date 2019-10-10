@@ -2,15 +2,25 @@
   "name": "simple-http-proxy-server",
   "version": "1.0.0",
   "description": "Simple proxy server. It tosses all requests without changes.",
-  "main": "index.js",
+  "main": "server.js",
+  "bin": {
+    "shps": "server.js"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "keywords": ["proxy", "proxy server", "node proxy server", "nodejs proxy server"],
-  "author": "Tsimafei Kavalevich",
+  "author": {
+    "name": "Tsimafei Kavalevich",
+    "email": "timofei.kovalevich@yandex.by"
+  },
   "license": "ISC",
   "dependencies": {
     "http": "0.0.0",
     "http-proxy": "^1.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KovalevichTimofei/SimpleProxyServer"
   }
 }
