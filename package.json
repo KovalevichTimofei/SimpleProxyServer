@@ -1,5 +1,5 @@
 {
-  "name": "simple-proxy",
+  "name": "simple-http-proxy-server",
   "version": "1.0.0",
   "description": "Simple proxy server. It tosses all requests without changes.",
   "main": "index.js",

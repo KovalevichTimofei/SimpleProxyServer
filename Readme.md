@@ -2,6 +2,8 @@
 
 Simple proxy server. It tosses all requests without changes.
 
+**GitHub:** https://github.com/KovalevichTimofei/SimpleProxyServer
+
 # How to use
 
 `node server.js host port changeOrigin`
